@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+   <title>Lakeside Books - News</title>
+    <meta name="description" content="Bookstore that buys and sells">
+    <!--Copyright tag unable to be validated unless there is an authentic registration for patent-->
+     <meta name="keywords" content="Book, Books,buy books,sell books,Lakeside,Lakeside Books">
+     <meta name="author" content="William Moriarty">
+    <meta charset='utf-8'>
+    <link href="images/favicon.png" rel="icon"/> 
+    <link href="images/favicon.png" rel="shortcut icon"/>
+     <!--favicon.ico would not load on all broswers despite taking every action to make it so
+    - clearing cache, using proper dimensions etc -
+    reverted to using .png-->
+    <link rel = "stylesheet" type = "text/css" href = "style.css">
+    <style type = "text/css">
+    </style>
+   
+
+<script src = "script.js"></script>
+  
+<script>
+  function win(position) {
+
+	document.getElementById ('lat').innerHTML =  position.coords.latitude;
+	document.getElementById ('long').innerHTML = position.coords.longitude;
+	
+	document.getElementById ('distance').innerHTML = getDistanceFromLatLonInKm(51.897871900000000000, -8.471087399999988000, 
+	position.coords.latitude, position.coords.longitude);}	 
+</script> 
+    
+	</head>
+  <body>
+  
+  <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+	<script>
+  	
+	navigator.geolocation.getCurrentPosition(success);
+	function success(position){
+	var mylat = position.coords.latitude;
+	var mylong = position.coords.longitude;
+	
+	var coords  = new google.maps.LatLng(51.623178, -8.889785);
+  
+	var mapOptions  = {
+	zoom:15,
+	center:coords,
+	mapTypeId: google.maps.MapTypeId.ROADMAP}
+
+	var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+	
+	var marker = new google.maps.Marker({map:map, position:coords})}
+  </script> 
+ 
+  <div id="maindiv">
+    <a href="Index.html" class="frontPage">
+    <header>
+      <div class="address">
+        Main Street<br>Clonakilty<br>Co.Cork<br>0217963451
+      </div><br><br>
+    </header></a>
+    
+    <div class="block1">
+    <br><br>
+    </div>
+
+    <!--menu and navigation-->
+    <nav>                     
+      <div id="menu">
+        <div class="menu-box">
+          <a href="#menu" class="menu-button">Menu</a>
+            <div class="menu">
+              <a href="Index.html">Home</a>
+              <a href="News.html" class="active">News</a>
+              <a href="testpage.html">Books</a>
+              <a href="testpage.html">About</a>
+              <a href="testpage.html">Contact Us</a>
+              <a href="#top" class="close">Close</a>  
+           </div>
+       </div>
+     </div>
+    </nav>
+    
+    <div id="block5"></div>
+    <div class="topblock"> </div>
+
+  <div id="outercontentdiv">
+    
+    <div class="socialmedia"><!--This is the div for the twitter timeline and
+                           the twitter/facebook/youtube buttons-->  
+    <a class="twitter-timeline" href="https://twitter.com/friesen_mary" data-widget-id="459352791975084032">Tweets by @friesen_mary</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+       <div id="mediabox">
+         <a href="https://www.facebook.com/" target="_blank">
+         <img src="images/facebook.png" alt="Visit us on Facebook!"></a>
+         <a href="https://twitter.com/" target="_blank">
+         <img src="images/twitter.png" alt="Visit us on Twitter!"></a>
+         <a href="http://www.youtube.com/" target="_blank">
+         <img src="images/youtube.png" alt="Visit us on Youtube!"></a> 
+      </div> 
+    </div>
+   
+   
+   <div id="mapcontainer">
+   <div id="textdiv4">
+   The location of our new premises!
+   </div>
+   <div id = "map">
+   
+   <!--map is set to the rough location of where the store could be(since it apparently doesnt exists and
+   ring road is just a bunch of fields.
+   Can easily set the map to current lat/long but for the sake of design/concept it is set to
+   the stores 'location'-->
+   
+   </div>
+   </div> 
+    
+    <br><br>
+    
+
+      <div id="geoheader">
+      Why not check how far you are from the store!?
+      </div>
+      <div id="geobox"><br>
+      <button onclick="navigator.geolocation.getCurrentPosition(win);">Click me!</button>
+  
+      <p>Your current latitude is: <span id="lat">X</span>.
+      Your current longitude is: <span id="long">X</span>.</p>
+    
+      <p>You are <span id="distance">X</span> miles from the store. Why not visit sometime!?</p>    
+      </div>
+  </div>
+  
+   
+  
+  <div id="textdiv2">
+    <h1>This week's News! -</h1>
+    Our weekly update of all the news from Lakeside bookstore. <br> 
+    </div>
+  <div id="innercontentdiv2">
+   
+   
+   <div class="newsbox">
+   <div class="newsbanner">
+   We have moved to a new premises - 03/05/2014
+   </div><br><br>
+   <div class="newscontent">
+     Thanks to a rise in popularity and sales we have now moved from our old address 
+     on Ring Road to a much larger premises on Main Street.
+     The plan to move has been in motion for some time now and couldnt have been accomplished without your patronage! 
+     <br><br>
+     New additions to the store include much wider areas of space to accomadate the increasing number of books we have been ordering -
+     one of the bigger problems we encountered at our old presmises.<br>
+     Additionally there are now areas where visiters can sit and read, have a coffee, and chat about the latest titles!
+     We have also set up free wifi for those who would like to surf the web.<br><br>
+     Alot of hard work has gone into the conversion of this new premises, but we are sure it will be worth it, and that
+     you will make full use of all the new facilities!
+     We would like to thank all our customers for making this possible and we look forward to seeing you at our new home!
+     <br><br>- Anne O'Donoghue.
+   </div>
+        <div class="readmore"></div>
+   </div>
+   
+   <div class="newsbox">
+   <div class="newsbanner">
+   Welcome to our new website! - 01/05/2014
+   </div><br><br>
+   <div class="newscontent">
+   In preparation to moving premises this week we have also updated our website.<br><br>
+   Our previous website lacked many features, such as proper compatiblity while browsing from a phone or tablet.
+   The new website has been updated to include these features and more.
+   <br><br>
+   You can now shop for books from the comfort of your own home with our new online store feature.<br>
+   If you live in the Republic of Ireland delivery will also be free!
+   <br><br>
+   We have updated our database so you can easily check if we have your desired book in stock, and if not, you can easily place
+   an order by filling our a simple order form.<br><br>
+   Last, but not least, we have included new social media functions, so you can share with friends and get the latest news 
+   from Lakeside Books anytime, anywhere! 
+   </div>
+   
+
+        <div class="readmore"></div>
+   </div>
+   
+   
+   <!--reference: http://www.mercurynews.com/tv/ci_25700188/game-thrones-war-between-books-and-show-->
+   <div class="newsbox">
+   <div class="newsbanner">
+   'Game of Thrones': The war between books and show - 28/05/2014
+   </div><br><br>
+   <div class="newscontent">
+    "But that's not how it happened in the book."
+
+    Sound familiar? That mantra has been bandied about quite often in recent years as 
+    television increasingly plumbs -- not always religiously -- popular tomes for source material. 
+    From "The Walking Dead" and "Game of "Thrones," to dramas like 
+    "Masters of Sex," "True Blood," "Witches of East End," "The VampireDiaries" and others, 
+    the list of shows tied to published works goes on and on.
+     <br><br>
+     All the while, I continue to be fascinated by the relentless tug-of-war between book and 
+     screen and how it affects the way we process what we watch and, in some cases, how it even 
+     provokes wide divisions among audience members.
+     <br><br>
+     All the while, I continue to be fascinated by the relentless tug-of-war between book and screen 
+     and how it affects the way we process what we watch and, in some cases, 
+     how it even provokes wide divisions among audience members.
+   </div>
+        <div class="readmore">
+         <a href="testpage.html">READ MORE</a>
+        </div>
+   </div>
+   
+   <!--reference: http://www.theguardian.com/books/2012/aug/24/future-ficton-writers-conference-edinburgh-festival-->
+   <div class="newsbox">
+   <div class="newsbanner">
+   The future of fiction - An experience from the Edinburgh International Book Festival - 27/04/2014
+   </div><br><br>
+   <div class="newscontent">
+   At the end of a session with thriller writer Sam Bourne this week, 
+   an audience member asked why there was so much writing about the Nazi Holocaust 
+   and so little about other, more recent ones. <br><br>Bourne - whose novel Pantheon investigates 
+   the complicity of Yale and Oxford universities in eugenicist attempts to save "the brightest and best" during the second world war 
+   - was speaking in one of the bigger tents at the Edinburgh International Book festival. 
+   Thanks partly to the World Writers' Conference, more recent holocausts have been discussed, 
+   but you needed to go to the smaller venues to find them.<br><br>
+   It takes time for political trauma to work its way into fiction - 
+   not least because the witnesses, who go on to become the chroniclers,
+    have often to find new languages in which to tell their stories.
+   </div>
+   <div class="readmore">
+         <a href="testpage.html">READ MORE</a>
+        </div>
+   </div>
+
+  </div>
+  
+  
+                         <!--Index-->
+  
+  <footer>
+  <div class="indexboxes">
+    <div class="indextext">
+     <ul>
+      <li><h4>Index</h4></li>
+      <li><a href = 'Index.html'>Home</a></li>
+      <li><a href = 'testpage.html'>News</a></li>
+      <li><a href = 'testpage.html'>Books</a></li>
+      <li><a href = 'testpage.html'>About</a></li>
+      <li><a href = 'testpage.html'>Contact us</a></li>
+     </ul>
+      </div>
+  </div>
+  
+  <div class="indexboxes">
+        <div class="indextext">
+        <ul>
+          <li><h4>Shopping</h4></li>
+          <li><a href = 'testpage.html'>Special Offers</a></li>
+          <li><a href = 'testpage.html'>Shipping and Delivery</a></li>
+          <li><a href = 'testpage.html'>Returns</a></li>
+          <li><a href = 'testpage.html'>Terms and Conditions</a></li>
+         </ul>       
+         </div>
+         <div id="block3"></div>  
+  </div>
+  
+  <div class="indexboxes">
+       <div class="indextext">
+         <ul>
+          <li><h4>About us</h4></li>
+          <li><a href = 'testpage.html'>Location</a></li>
+          <li><a href = 'testpage.html'>History</a></li>
+          <li><a href = 'testpage.html'>Proprietor</a></li>
+          <li><a href = 'testpage.html'>Contact</a></li>
+          <li><a href = 'testpage.html'>Help</a></li>
+         </ul>         
+        </div>
+        <div id="block4"></div>     
+  </div>
+  
+  <div class="indexboxes">
+    <div class="indextext">
+    <ul>
+      <li><h4> Search by Genre</h4></li>
+      <li><a href = 'testpage.html'>Anthropology</a></li>
+      <li><a href = 'testpage.html'>Business</a></li>
+      <li><a href = 'testpage.html'>Children's</a></li>
+      <li><a href = 'testpage.html'>Comics</a></li>
+      <li><a href = 'testpage.html'>Crime</a></li>
+      <li><a href = 'testpage.html'>Educational</a></li>
+      <li><a href = 'testpage.html'>Fantasy</a></li>
+      <li><a href = 'testpage.html'>Fiction</a></li>
+      <li><a href = 'testpage.html'>Food/Cooking</a></li>
+      <li><a href = 'testpage.html'>History</a></li>
+      <li><a href = 'testpage.html'>Horror</a></li>
+      <li><a href = 'testpage.html'>Poetry</a></li>
+      <li><a href = 'testpage.html'>Philosophy</a></li>
+      <li><a href = 'testpage.html'>Nature</a></li>
+      <li><a href = 'testpage.html'>School</a></li>
+      <li><a href = 'testpage.html'>Sport</a></li>
+      <li><a href = 'testpage.html'>Romance</a></li>
+      <li><a href = 'testpage.html'>Travel</a></li>
+      <li><a href = 'testpage.html'>War</a></li>
+    </ul>
+    </div>   
+  </div>
+  
+  
+  <div class="footwrapper">
+  
+  <div class="copyright">
+  &copy; Copyright Anne O' Donoghue 2014.
+  </div>
+  
+  <div class="backtotop">
+    <a href="#top">BACK TO TOP</a>
+    </div>
+   
+  </div>
+   
+  </footer>
+  
+</div>
+</body>  
+</html>

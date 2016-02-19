@@ -1,0 +1,907 @@
+  
+   /*VALIDATED FOR CSS LEVEL 3*/
+  
+  body {
+      /*background-color: #D2E8FF;*/
+      background-image: url('images/background.jpg');
+      font-size: 62.5%;
+      font-family: verdana;
+      margin:0px;
+      padding:0px;                 }
+     
+      #maindiv { 
+      width:1000px;
+      margin: 0 auto; 
+      background-color: #D2E8FF;
+      border-radius:10px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+      border: 5px solid #1e68a7}
+      
+      header{
+      width:auto;
+      height:160px; 
+      margin: 0 auto;
+      background-color: #1e68a7;
+      background-image: url('images/banner_desktop.png');
+      background-repeat: no-repeat;}
+      
+      .address{
+      position: relative;
+      top:66%;
+      left:94%;
+      font: .95em "arial";
+      font-weight: bold;
+      color:white;
+      width:6%;}
+          
+      .topblock{width:auto;
+      height:20px;}
+      
+      /*missing space patch*/
+      .block1{
+      width:100%;
+      height:50px;}
+       
+      a, a:link, a:visited, a:hover {
+      text-decoration: none;
+      color: #D2E8FF;}
+ 
+      /* Menu items */   
+      nav {
+      position:relative;
+      bottom: 50px;
+      margin:20px;}
+      
+      .menu-box {
+      font-size: 2.4em;
+      width: 83%;
+      height:60px;
+	    margin: 0 auto;
+      position:relative;}
+   
+      .menu-box a {
+      background: #1e68a7;
+      border-radius: 10px;     
+      color: #D2E8FF;
+      margin: 5px;
+      display: inline-block; 
+      padding: 8px 30px;
+      -moz-transition: background-color .2s;
+      -o-transition: background-color .2s;
+      -webkit-transition: background-color .2s;
+      transition: background-color .2s;}
+ 
+      .menu-box .active {
+      background: #E6E600;    
+      color: #1e68a7;
+      border: 1px solid #1e68a7;}
+ 
+     .menu-box .active:hover,.menu-box a:hover{
+     background: #E6E600;
+     color: #1e68a7;
+     border: 1px solid #1e68a7}
+     
+     .menu-box .close{visibility:hidden}
+      
+     #block2{
+     width:50%;
+     height:50px;
+     margin: 0 auto;}
+        
+     h1{
+     font-weight: normal;
+     line-height: 10%;}
+     
+     .twitter-timeline{
+     height:449px;
+     background-color: #E6E600;}
+     
+     .socialmedia{
+     width: 20%;
+     position: absolute;
+     top:0px;
+     right:0px;
+     border:2px solid #1e68a7;
+     border-top-left-radius: 10px;
+     border-bottom-left-radius: 10px;}
+    
+     #mediabox{
+     width:162px;            
+     position: relative;   
+     margin:0 auto;
+     top:2px;}
+     
+     #textdiv1{
+     font-size: 1.9em;
+     margin-left:10.5%;
+     text-align:center;
+     padding: 10px;
+     color: #D2E8FF;
+     background:#1e68a7;
+     border-radius:10px;
+     border-bottom-left-radius: 0px;
+     border-bottom-right-radius: 0px;
+     width:65%;}
+     
+     #textdiv1 a{text-decoration:underline}
+     
+     #textdiv1 a:hover{color:#E6E600;}
+      
+     #textdiv2{
+     font-size: 1.5em;
+     margin: 0 auto;
+     text-align: center;
+     padding: 10px;
+     color: #D2E8FF;
+     background:#1e68a7;
+     border: 3px solid #1e68a7;
+     border-radius:10px;
+     border-bottom-left-radius: 0px;
+     border-bottom-right-radius: 0px;
+     width:95%;}
+     
+     #textdiv3{
+     font-size: 1.9em;
+     margin-left:10.5%;
+     text-align:center;
+     padding: 10px;
+     color: #D2E8FF;
+     background:#1e68a7;
+     border-radius:10px;
+     border-bottom-left-radius: 0px;
+     border-bottom-right-radius: 0px;
+     width:65%;}
+     
+      #textdiv4{
+     font-size: 1.9em;
+     margin-left:10.5%;
+     text-align:center;
+     padding: 10px;
+     color: #D2E8FF;
+     background:#1e68a7;
+     border-radius:10px;
+     border-bottom-left-radius: 0px;
+     border-bottom-right-radius: 0px;
+     width:65%;}          
+
+     #outercontentdiv{
+     margin: 0 auto;
+     width:auto;
+     position:relative;
+     top:-50px}
+     
+     #mapcontainer{
+     width: auto;}
+     
+     #map{
+     margin-left: 10.5%;
+     border: 2px solid #1e68a7;
+     border-radius: 10px;
+     border-top-left-radius: 0px;
+     border-top-right-radius: 0px;
+     width:66.6%;
+     height:462px;}
+     
+     #geoheader{
+     font-size: 1.7em;
+     margin-left:10.5%;
+     text-align:center;
+     padding: 10px;
+     color: #D2E8FF;
+     background:#1e68a7;
+     border-radius:10px;
+     border-bottom-left-radius: 0px;
+     border-bottom-right-radius: 0px;
+     width:78.4%;}
+     
+     #geobox{
+     font-size:1.5em;
+     width:80%;
+     height:auto;
+     margin-left:10.5%;
+     text-align: center;
+     border-radius: 10px;
+     border-top-left-radius: 0px;
+     border-top-right-radius: 0px;
+     border: 2px solid #1e68a7;}
+      
+     #picture{
+     width: 65%;
+     height: 420px;
+     padding: 8px;  
+     background-image:url('images/bookstorepicL.jpg');
+     /*The picture in question is a photo of Lakeside Books Used Book Store in
+     Bentor Harbour, Southwest Michigan*/     
+     background-repeat: no-repeat;
+     margin-left:10.5%;
+     border: 2px solid #1e68a7;
+     border-radius:10px;
+     border-top-left-radius: 0px;
+     border-top-right-radius: 0px;}
+     
+     figure{width:100%;
+     position:relative;
+     top:92%;
+     right:6.2%;}
+     
+     #picture figcaption{
+     font-size:1.7em;
+     text-align:center;   
+     opacity:0; }
+    
+    #picture:hover figcaption {
+    color:white;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding-left:4px;
+    padding-right:4px;
+    opacity: .7}
+    
+    #innercontentdiv{
+    font-size:1.2em;
+    width:97%;
+    height: 850px;
+    margin: 0 auto;
+    padding-top:15px;
+    border: 3px solid #1e68a7;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;}
+    
+    #innercontentdiv2{
+    clear:both;
+    font-size:1.2em;
+    width:97%;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom:5%;
+    border: 3px solid #1e68a7;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;}
+
+    .newsbox{
+    font-size:1.2em;
+    margin: 0 auto;
+    width:95%;
+    height: 22.75%;
+    padding: 1%;}
+    
+    .newsbanner{
+    margin: 0 auto;
+    display: inline-block;
+    max-width: 100%;
+    font-size:1.2em;
+    background: #1e68a7;
+    color: #D2E8FF;
+    padding:5px;
+    padding-right:15px;
+    border-radius:5px;}
+    
+    .newscontent{}
+    
+    .bookboxes{
+    width:31%;
+    height:250px;
+    float:left;
+    margin: 10px;
+    padding-top: 5px;}
+    
+    .bookpics { 
+    float:left;
+    width:66px;
+    height:99px;   
+    background-size:contain;         
+    padding-bottom: 5px;
+    padding-right:25px;}
+
+    .bookboxes a {
+    display:block;}
+
+   .bookboxes a:hover img {
+    position:relative;
+    width: 220px; 
+    height: 330px;
+    top: -110px;
+    right: 20px;
+    z-index:1;
+    border-radius: 10px;}
+      
+    .bookpics a img {
+    width: 100%;}
+    
+    .sparebox{ /*Spare box required to fit the last odd box in the column*/
+    width:31%;
+    height:250px;
+    float:left;
+    margin: 10px;
+    padding-top: 5px;}
+    
+    .sparebox a {
+    display:block;}
+    
+   .sparebox a:hover img {
+    position:relative;   
+    width: 220px; 
+    height: 330px;
+    top: -110px;
+    right: 20px;
+    z-index:1;
+    border-radius: 10px;} 
+    
+    .sparebox a img {
+    width: 100%;} 
+ 
+    .outerdetails{
+    padding: 3px;}
+    
+    /*a wrapper was required to stop the enlarge/hovered image pushing away
+    the details text*/
+    
+    .innerdetails{
+    width:auto;
+    margin-left:30%;
+    height:100px;}
+    
+    .innerdetails2{    /*for the spare box*/
+    width:auto;
+    margin-left:30%;
+    height:100px;}
+    
+    .summarytext{
+    width:auto;
+    height:40%;
+    margin-bottom:5px;
+    margin-top:3px;} 
+    
+    #summarytext2{  /*for sparebox*/
+    width:auto;
+    height:40%;
+    margin-bottom:5px;
+    margin-top:7px;}
+      
+    .readmore{
+    position:relative;
+    bottom:0px;
+    text-align:center;
+    width:32.5%;
+    height:15px;
+    padding:10px;
+    margin-left: 30%;
+    z-index: 0;}
+    
+    .readmore a{
+    color:#1e68a7;
+    text-decoration: underline}
+    
+    .readmore a:hover{color: red }
+    
+    .footwrapper{
+    clear:both;
+    margin-bottom:1%;}
+    
+    .copyright{
+    float:left;
+    color:#D2E8FF;        
+    width: 310px;
+    padding-top: 20px;
+    margin-left:1%;
+    font-size: 1em}
+    
+    .backtotop{
+    font-size: 1.4em;    
+    width:20%;
+    height:5%;
+    background-color: #D2E8FF;
+    text-align:center; 
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 auto;}
+    
+    .backtotop a {color: #1e68a7;}
+    
+    .backtotop a:hover {color: red}/*This had to be red for good background contrast*/
+    
+    footer{
+    clear:both;  
+    background-color: #1e68a7;
+    width:100%;
+    height: 50%;
+    margin-top: -2%;
+    border: 1px solid #1e68a7}
+    
+    .indexboxes{
+    width: 20%;
+    margin-left: 2.4%;
+    margin-right: 2.4%;
+    float:left;}
+      
+    .indextext{
+    color: #D2E8FF;
+    font-size: 1.2em;
+    margin:3%;
+    text-align:left;}
+    
+    .indextext a{
+    text-decoration:underline;
+    text-align:left;}
+    
+    .indextext ul{
+    margin-left: -20%;
+    list-style-type: none;}
+    
+    .indextext a:hover{
+    color: #E6E600 }
+    
+    h4 {font-size:1.2em}
+      
+  /* Responsive Menu Button */
+ 
+  .menu-box .menu-button {
+    background: #D2E8FF;
+    color: #1e68a7;
+    display: none;} 
+ 
+ /*responsive for tablets*/
+ @media all and (max-width: 768px) {
+ 
+    body{ background-image:none;}
+  
+    #maindiv {
+    width:738px;
+    border: 5px solid #1e68a7 }  
+
+    .menu-box {
+    font-size: 1.6em;
+    width: 80%;
+    height:50px}  
+ 
+    .menu-box a {padding: 10px 20px;}
+  
+    header {
+    background-image:url('images/banner_tablet.png');  
+    height:140px;}
+    
+    .address{
+    position: relative;
+    width:10%;
+    top:63%;
+    left:92%;
+    font: .9em "arial";
+    font-weight: bold;
+    color:white}
+    
+    .topblock{height: 10px;}
+      
+    .block1{
+    height:35px;}
+    
+    #textdiv1{
+    margin: 0 auto;
+    width:55%;
+    font-size: 1.5em;
+    padding: 10px;}
+     
+    #textdiv2{
+    font-size: 1.4em;
+    width:94.5%;
+    border: 2px solid #1e68a7;}
+    
+    #textdiv4{
+    font-size: 1.9em;
+    margin: 0 auto;
+    width:77.8%;}
+       
+    .socialmedia{display: none}
+    
+    #block2{height:30px}
+    
+    #mapcontainer{width: auto;}
+     
+     #map{
+     margin: auto;
+     width:80%;
+     height:300px;}
+     
+     #geoheader{
+     margin:auto;
+     width:77.8%;}
+     
+     #geobox{
+     width:80%;
+     margin: auto;
+     margin-bottom:5%}
+    
+    #outercontentdiv{
+    margin: 0 auto;
+    margin-bottom: -50px;
+    width:auto;}
+    
+    #innercontentdiv2{
+    font-size:1.1em;
+    width:97%;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom:6%}
+    
+    #innercontentdiv{
+    margin: 0 auto;
+    height: 1350px;}
+ 
+    #picture{
+    background-image:url('images/bookstorepicS.jpg');
+    margin:0 auto;
+    width: 55%;
+    height: 200px;}
+    
+    #picture figcaption{
+    font-size: 1.1em;}
+    
+    figure{
+    top:90%;
+    right:10%;}
+    
+    .bookboxes{
+    width:46.75%;
+    height:250px;}
+    
+    .sparebox{
+    width:98%;
+    height:205px;}      
+    
+    .innerdetails2{
+    margin-left: 13%;}
+    
+    #summarytext2{height:20%}
+    
+    footer{
+    height:60%;}
+    
+    .backtotop{
+    font-size: 1.2em;
+    width:17%;
+    height:3%;
+    padding: 1%}
+    
+    .indexboxes{
+    width: 22.5%;
+    margin-left: 1%;
+    margin-right: 1%;}
+    
+    .indextext{
+    font-size: 1.1em;}
+    
+    h4 {font-size:1.1em}
+    
+    .copyright{ 
+    font-size: .9em;
+    padding-top:15px;    
+    width:38%;}
+        
+  }
+  /* responsive for wide-phones*/
+  @media all and (max-width: 480px) { 
+    
+    #maindiv {
+    width:455px;
+    }
+     
+    header{
+    border-bottom-left-radius:0px;
+    border-bottom-right-radius:0px;
+    height:75px;
+    background-image:url('images/banner_widephone.png');}
+    
+    .frontPage{
+    /* tried to disable header-to-home navigation for phone as it would be very irrating
+    and prone to accidently tapping*/
+    
+    /*cursor: default;
+    pointer-events: none; */ 
+    
+    /*had pointer event disabled to prevent the image link flickering ( it was also too big
+    for phone width) but it wouldnt validate for current css*/
+    }
+    
+    .address{display:none}
+    
+    #textdiv1{display:none}
+    
+    #textdiv2{
+    font-size: 1.2em;
+    width:96%;
+    border: 0px;
+    border-radius:0px;}
+      
+    #textdiv4{
+    font-size: 1.6em;
+    width:76.5%;}
+    
+    .menu-box {
+    font-size: 1.33em;
+    width: 98%;
+    height:25px;
+    z-index:5}
+    
+    .menu-box a {
+    margin:1px;   
+    padding: 5px 15px;}
+    
+    .topblock{display:none;}
+    
+    #picture{display:none;}
+ 
+    #block2{display:none;}
+    
+    #mapcontainer{width: auto;}
+     
+     #map{height:200px;}
+     
+     #geoheader{
+     font-size: 1.3em;
+     margin: auto;
+     width:77.5%;}
+     
+     #geobox{
+     font-size: 1.1em;
+     width:81%;
+     margin: auto;
+     margin-bottom:5%}
+    
+    #innercontentdiv2{
+    font-size:1em;
+    border: none;
+    margin-bottom:20%}
+    
+    #innercontentdiv{ 
+    font-size:1.2em;
+    border:0px;
+    height: 100%;}
+      
+    .newsbox{
+    font-size:1.2em;
+    margin: 0 auto;
+    width:95%;
+    height: 22.75%;
+    padding: 1%;}
+    
+    .newsbanner{
+    margin-top:3%;
+    display: block;
+    font-size:1.2em;
+    padding-right:5px;}
+    
+    .bookpics { 
+     position:relative;
+     padding-bottom:0px;
+     height: auto;
+     /*cursor: default;
+     pointer-events: none;*/} /*disabled hover-over enlarged images for phones*/
+        
+    
+    
+   /*.bookboxes a:hover img {display:none;}*/
+   
+   .bookboxes a:hover img {
+    width:66px;
+    height:99px;
+    top: 0px;
+    right:0px;
+    border-radius:0px}
+  
+   .bookboxes{
+    padding-bottom:10px;
+    z-index: -1;
+    margin: 2px;
+    width:auto;
+    height:auto;
+    float: none;}
+    
+    .sparebox{
+    float: none;
+    margin-left:2px;
+    height:250px;}    
+    
+    .sparebox a:hover img {
+    width:66px;
+    height:99px;
+    top: 0px;
+    right:0px;
+    border-radius:0px} 
+    
+    .summarytext{
+    padding:2px;}
+    
+    #summarytext2{height:25%}
+    
+    footer{
+    margin-top:-17%;}
+    
+    .backtotop{
+    font-size: 1.2em;
+    width:30%;
+    height:3%;
+    padding: 1%}
+    
+    .indexboxes{
+    font-size: .9em;
+    width: 24.5%;
+    margin: 0%;}
+    
+    h4 {font-size:1.1em}
+    
+    .copyright{ 
+    padding: 0px;
+    font-size: .95em;
+    width:30%;} 
+    
+        
+ } 
+  /* responsive for phones*/
+   @media all and (max-width: 320px) { 
+  
+     #maindiv {width:295px;
+              border: 4px solid #1e68a7}
+     
+     header {
+     height:60px;
+     background-image:url('images/banner_phone.png');}
+     
+     .block1{height:33px;}
+    
+     #textdiv2{
+     width:95%;
+     padding-top:6%;
+     margin: 0 auto;
+     font-size: 1.2em;}
+     
+     nav{
+     margin:0px;
+     background:#1e68a7;
+     bottom:37px;
+     margin-bottom:13px;}
+    
+    .menu-box {
+     width: 75%;
+     text-align: center;
+	   margin: 0 auto;}
+     
+    .menu-box a{border: 1px solid #D2E8FF;}
+     
+    .menu-box .close{visibility:visible}
+ 
+    .menu-box .menu-button {
+     display: block;}
+ 
+    .menu-box .menu {
+     height: 0;
+     opacity: 0;
+     overflow: hidden; 
+     -moz-transition: opacity 1s ease-out;
+     -o-transition: opacity 1s ease-out;
+     -webkit-transition: opacity 1s ease-out;
+     transition: opacity 1s ease-out;   
+     width: 100%;}
+ 
+     .menu a {
+     display: block;
+     margin: 2px;}
+ 
+     #menu:target .menu {
+     opacity: 1; 
+     height: auto;}
+ 
+     #menu:target .menu-button {
+     display: none;}
+     
+     
+     #block5{
+     width:100%;
+     height:20px;
+     background-color: #1e68a7;
+     margin-top:-17%;}
+     
+     #textdiv4{
+     clear:both;
+     font-size: 1.2em;
+     width:75%;}
+     
+     #innercontentdiv{
+     font-size:1.1em;
+     width:95%}
+     
+     #mapcontainer{
+     margin-top:24%;
+     width: auto;}
+     
+     #map{height:200px;}
+     
+     #geoheader{
+     font-size: 1.1em;
+     margin: auto;
+     width:74.58%}
+     
+     #geobox{
+     font-size: 1.1em;
+     width:80%;
+     margin: auto;
+     margin-bottom:5%}
+    
+    #innercontentdiv2{
+    font-size:1em;
+    border: none;
+    margin-bottom:30%}
+    
+    #innercontentdiv{ 
+    font-size:1.2em;
+    border:0px;
+    height: 100%;}
+      
+    .newsbox{
+    font-size:1.1em;
+    margin: 0 auto;
+    width:95%;
+    height: 22.75%;
+    padding: 1%;}
+    
+    .newsbanner{
+    margin-top:3%;
+    margin-bottom:-5%;
+    display: block;
+    font-size:1.2em;
+    padding-right:5px;}
+     
+     .bookpics {
+     padding-right:15px;}
+     
+     .bookboxes{font-size:.9em}
+     
+     .summarytext{
+     margin: 0px; }
+     
+     #summarytext2{
+     height:32%;
+     margin:-2px;}
+     
+    .indexboxes{
+    font-size: .85em;
+    width: 49%;
+    margin: 0%;
+    border: 1px solid #D2E8FF;}
+    
+    .sparebox{
+    font-size:.9em;
+    float: none;
+    margin-left:2px;
+    height:280px;
+    margin-bottom:-10%;}
+    
+     footer{
+    margin-top:-27%;    
+    height:430px;}
+    
+    #block3{
+    width:auto;
+    height:12px;}
+    
+    #block4{
+    width:95%;
+    height:168px;}
+
+    .backtotop{
+    font-size: 1.1em;
+    width:45%;
+    height:2%;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;}
+    
+     .copyright{
+    position:relative;
+    bottom: 50px;
+    font-size: .85em;
+    width:25%;
+    margin-left:3%;
+    margin-bottom:2%}        
+  }  

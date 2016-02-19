@@ -1,0 +1,27 @@
+William Moriarty -t00119587, Web Design Final Project Semester 2
+
+Unsure of background - used a different shade of blue for consistency
+
+Very small inconsistency in IE when viewing the index at 320px. Best viewed in Firefox /Chrome. 
+
+Picture on frontpage is of lakeside books used book store, bentor harbor, southwest michigan.
+
+Pictures of books and summarys were referenced from http://www.booksunlimited.ie
+
+Twitter-timeline is referenced to a store call LAKESIDE BOOKS AND ART by @friesen_mary
+
+favicon.ico would not load on all broswers despite taking every action to make it so
+- clearing cache, using proper dimensions etc -
+reverted to using .png
+
+Geolocation Map is set to the rough location of where the store could be(since it apparently doesnt exists and
+   ring road is just a bunch of fields.
+   Can easily set the map to current lat/long but for the sake of design/concept it is set to
+   the stores 'location'
+
+News reference 1 - http://www.mercurynews.com/tv/ci_25700188/game-thrones-war-between-books-and-show
+
+News reference 2 - http://www.theguardian.com/books/2012/aug/24/future-ficton-writers-conference-edinburgh-festival
+
+References to certain details are in the HTML code.
+
